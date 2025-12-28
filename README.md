@@ -1,29 +1,59 @@
-# Sudoku Game & Solver
+# 🧩 Sudoku Game & Solver
 
-A **browser-based Sudoku game** built using **HTML, CSS, and JavaScript**, featuring **random puzzle generation**, **backtracking algorithm**, and **timer-based win/lose logic**.
+A **browser‑based Sudoku game** built using **HTML, CSS, and JavaScript**, featuring:
 
-This project demonstrates **web development skills, problem-solving using algorithms**, and **interactive UI** design. Perfect for beginners and for showcasing in your portfolio.
+✨ Random Sudoku puzzle generation  
+🧠 Backtracking algorithm for solution  
+⏱️ Timer‑based win/lose logic  
+🎯 User plays manually and gets feedback
+
+This project demonstrates **web development skills**, **algorithmic problem solving**, and **interactive UI design** — perfect for your portfolio and resume.
 
 ---
 
-## 🎯 Features
+## 🚀 Live Demo (Optional)
 
-- **Random Sudoku Puzzle Generation:** Every game gives a new valid puzzle.
-- **Backtracking Algorithm:** Full solution generated using backtracking for correctness.
-- **Timer-Based Gameplay:** 5-minute countdown for solving the puzzle.
-- **Win/Lose Logic:** 
-  - User wins if puzzle is solved correctly within time.
-  - User loses if time runs out or the solution is incorrect.
-- **Auto-Solution Reveal:** If the user loses, the correct solution is displayed automatically.
-- **Responsive Design:** Works on desktop and mobile browsers.
+If you deploy this using **GitHub Pages**, add your link here so recruiters can play it directly!
+
+🔗 [https://annyaaggarwal501‑netizen.github.io/sudoku‑game/](https://annyaaggarwal501-netizen.github.io/sudoku-game/)
+
+
+
+---
+
+## 🎮 Features
+
+✔ Randomly generated valid Sudoku puzzle each time  
+✔ 5‑minute countdown timer  
+✔ User input validation (only 1–9 allowed)  
+✔ Win/Lose pop‑up alerts  
+✔ Reveals solution if the user loses  
+✔ Clean responsive UI for desktop & mobile
+
+---
+
+## 🧠 How It Works
+
+1. **Generate Full Solution:**  
+   Using a backtracking algorithm to create a complete Sudoku board.  
+2. **Remove Numbers:**  
+   Random holes are created to make a playable puzzle.  
+3. **User Interaction:**  
+   Player fills in numbers and solves within time.  
+4. **Timer & Winning Logic:**  
+   Timer counts down from 300s; if you finish correctly → you win, else the solution is shown.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – structure of the Sudoku grid.
-- **CSS3** – styling, grid layout, buttons, and timer.
-- **JavaScript** – core game logic, random puzzle generation, backtracking solver, timer, and win/lose checks.
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure of the grid |
+| CSS3 | Styling & layout |
+| JavaScript | Game logic, puzzle generation, timer, solve check |
 
 ---
+
+## 📁 Project Structure
 
