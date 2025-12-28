@@ -55,5 +55,3 @@ If you deploy this using **GitHub Pages**, add your link here so recruiters can 
 
 ---
 
-## 📁 Project Structure
-
