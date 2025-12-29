@@ -23,8 +23,11 @@ function startTimer() {
 
         if (distancePending <= 0) {
             clearInterval(timer);
-            const main = document.getElementById("main");
-    main.innerHTML = `<h2>⏰ Time Up!</h2>`
+            // Alert for time up
+            alert("⏰ Time Up!");
+            timerEl.style.display="none";
+            // Show solution in existing grid
+            showSolution();
             showTimeUpOptions();
         }
 
@@ -36,7 +39,11 @@ function startTimer() {
 
 /* ==================== SUDOKU GENERATION ==================== */
 function generateEmptyBoard() {
-    return Array.from({ length: 9 }, () => Array(9).fill(0));
+    let board = new Array(9);
+    for (let i = 0; i < 9; i++) {
+        board[i] = new Array(9).fill(0);
+    }
+    return board;
 }
 
 function shuffle(arr) {
