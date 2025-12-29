@@ -11,9 +11,9 @@ This project demonstrates **web development skills**, **algorithmic problem solv
 
 ---
 
-## 🚀 Live Demo (Optional)
+## 🚀 Live Demo 
 
-If you deploy this using **GitHub Pages**, add your link here so recruiters can play it directly!
+
 
 🔗 [https://annyaaggarwal501‑netizen.github.io/sudoku‑game/](https://annyaaggarwal501-netizen.github.io/sudoku-game/)
 
